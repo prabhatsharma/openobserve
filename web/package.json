@@ -23,7 +23,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@joakimono/echarts-extension-leaflet": "^1.0.1",
     "@openobserve/rrweb-player": "^0.1.1",
     "@openreplay/tracker": "^4.1.5",
