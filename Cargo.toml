@@ -80,7 +80,7 @@ datafusion = { version = "33", features = ["simd"] }
 datafusion-expr = "33"
 arrow = { version = "48", features = ["simd", "ipc_compression"] }
 arrow-schema = { version = "48", features = ["serde"] }
-parquet = { version = "48", features = ["arrow", "async"] }
+parquet = { version = "49", features = ["arrow", "async"] }
 object_store = { version = "0.7", features = ["aws", "azure", "gcp"] }
 dotenv_config = "0.1"
 dotenvy = "0.15"
