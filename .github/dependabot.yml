@@ -10,7 +10,7 @@ updates:
     directory: "/web"
     schedule:
       interval: "daily"
-  - package-ecosystem: "rust"
+  - package-ecosystem: "cargo"
     directory: "/"
     schedule:
       interval: "daily"
