@@ -4519,7 +4519,7 @@ dependencies = [
  "sqlx",
  "strum",
  "sysinfo",
- "syslog_loose 0.18.0",
+ "syslog_loose",
  "tempfile",
  "thiserror",
  "tikv-jemallocator",
@@ -6914,16 +6914,6 @@ dependencies = [
 
 [[package]]
 name = "syslog_loose"
-version = "0.18.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "97fb75f176928530867b2a659e470f9c9ff71904695bab6556f7ad30f9039efd"
-dependencies = [
- "chrono",
- "nom",
-]
-
-[[package]]
-name = "syslog_loose"
 version = "0.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "acf5252d1adec0a489a0225f867c1a7fd445e41674530a396d0629cff0c4b211"
@@ -7461,7 +7451,7 @@ version = "1.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675"
 dependencies = [
- "cfg-if 1.0.0",
+ "cfg-if 0.1.10",
  "static_assertions",
 ]
 
@@ -7791,7 +7781,7 @@ dependencies = [
  "sha3",
  "snafu 0.7.5",
  "strip-ansi-escapes",
- "syslog_loose 0.19.0",
+ "syslog_loose",
  "termcolor",
  "thiserror",
  "tracing",

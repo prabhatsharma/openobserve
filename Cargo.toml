@@ -149,7 +149,7 @@ sqlx = { version = "0.7", features = [
 ] }
 strum = { version = "0.25", features = ["derive"] }
 sysinfo = "0.29"
-syslog_loose = "0.18.0"
+syslog_loose = "0.19.0"
 thiserror = "1.0"
 time = "0.3"
 tikv-jemallocator = { version = "0.5", optional = true }
