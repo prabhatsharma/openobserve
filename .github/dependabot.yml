@@ -6,3 +6,11 @@ updates:
       interval: "weekly"
     labels:
       - "🤖 Dependencies"
+  - package-ecosystem: "npm"
+    directory: "/web"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "rust"
+    directory: "/"
+    schedule:
+      interval: "daily"
