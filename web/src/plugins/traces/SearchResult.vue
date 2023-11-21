@@ -28,6 +28,8 @@
         @click="onChartClick"
       />
 
+      <div>Traces {{ searchObj.data.queryResults?.hits?.length }}</div>
+
       <q-virtual-scroll
         id="tracesSearchGridComponent"
         style="height: 400px"
@@ -108,11 +110,7 @@ export default defineComponent({
     onChartUpdate({ start, end }: { start: any; end: any }) {
       if (!(start && end)) return;
       this.searchObj.meta.showDetailTab = false;
-      this.searchObj.data.datetime.type = "absolute";
-      this.searchObj.data.datetime.startTime = new Date(start).getTime() * 1000;
-      this.searchObj.data.datetime.endTime = new Date(end).getTime() * 1000;
-      this.searchObj.runQuery = true;
-      this.$emit("update:datetime");
+      this.$emit("update:datetime", { start, end });
     },
     onScroll(info: any) {
       if (
